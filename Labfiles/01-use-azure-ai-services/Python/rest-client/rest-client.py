@@ -78,3 +78,116 @@ def GetLanguage(text):
 
 if __name__ == "__main__":
     main()
+
+
+'''
+Output
+Hi
+{
+  "documents": [
+    {
+      "id": 1,
+      "text": "Hi"
+    }
+  ]
+}
+{
+  "documents": [
+    {
+      "id": "1",
+      "detectedLanguage": {
+        "name": "English",
+        "iso6391Name": "en",
+        "confidenceScore": 1.0
+      },
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "modelVersion": "2024-04-01"
+}
+
+Language: English
+Enter some text ("quit" to stop)
+Hello
+{
+  "documents": [
+    {
+      "id": 1,
+      "text": "Hello"
+    }
+  ]
+}
+{
+  "documents": [
+    {
+      "id": "1",
+      "detectedLanguage": {
+        "name": "English",
+        "iso6391Name": "en",
+        "confidenceScore": 1.0
+      },
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "modelVersion": "2024-04-01"
+}
+
+Language: English
+Enter some text ("quit" to stop)
+gutan morgan
+{
+  "documents": [
+    {
+      "id": 1,
+      "text": "gutan morgan"
+    }
+  ]
+}
+{
+  "documents": [
+    {
+      "id": "1",
+      "detectedLanguage": {
+        "name": "English",
+        "iso6391Name": "en",
+        "confidenceScore": 0.58
+      },
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "modelVersion": "2024-04-01"
+}
+
+Language: English
+Enter some text ("quit" to stop)
+नमस्ते
+{
+  "documents": [
+    {
+      "id": 1,
+      "text": "\u0928\u092e\u0938\u094d\u0924\u0947"
+    }
+  ]
+}
+{
+  "documents": [
+    {
+      "id": "1",
+      "detectedLanguage": {
+        "name": "Hindi",
+        "iso6391Name": "hi",
+        "confidenceScore": 0.95
+      },
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "modelVersion": "2024-04-01"
+}
+
+Language: Hindi
+
+'''
